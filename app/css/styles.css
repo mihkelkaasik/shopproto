@@ -1,0 +1,113 @@
+/* Colors for styling
+#c5d5cb
+#9fa8a3
+#e3e0cf
+#fff
+*/
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	
+	-webkit-border-radius: 0 !important;
+       -moz-border-radius: 0 !important;
+            border-radius: 0 !important;
+	
+	margin:0;
+	padding:0;
+}
+
+.navbar-default .navbar-nav > 
+.active > a, .navbar-default .navbar-nav > 
+.active > a:hover, .navbar-default .navbar-nav > 
+.active > a:focus {
+	color: #777;
+}
+
+.removePaddingMargin {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EAE9E1;
+}
+
+.navbar {
+	margin: 0;
+	border: 0;
+}
+
+.row {
+	margin: 0;
+}
+
+.well {
+	border: 0;
+}
+
+.headerTextPadding {
+	margin-top:60px;
+}
+
+.homeCarouselPadding {
+	padding-bottom:15px;
+	padding-top: 15px;
+}
+
+footer>div.well {
+	margin-top:15px;
+	margin-bottom:0;
+}
+
+.headerRow {
+	height:150px;
+}
+
+.navbarCol {
+	background-color: #F9F9F9;
+}
+
+.rowCol {
+	background-color: #E6E4D5;
+}
+
+.contentWellCol {
+	background-color: #e3e0cf;
+}
+.bgCol {
+	background-color: #fff;
+}
+
+@media (max-width: 768px) {
+	.remPadding{
+		padding: 0;
+	}
+}
+@media (min-width: 768px) {
+	.remPadding{
+		padding: 0;
+	}
+}
+@media (min-width: 992px) {
+	.remPadding{
+		padding: 0;
+	}
+}
+
+@media (min-width: 1700px) {
+	.col-lg-pull-2 {
+		right: auto;
+	}
+}
+
+#navbarVertical {
+	margin-bottom:15px;
+}
+
+.error-message{
+/* text-align:right; */
+text-align: left;
+padding-top: 7px;
+}
